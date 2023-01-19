@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.fullcycle.admin.catalogo.domain.category.CategoryTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-01-19T15:56:38" hostname="DESKTOP-6SMTABB" time="0.068">
+  <properties/>
+  <testcase name="dadoOInvalidoParametroNameComMenosDeTreisCaracter_QuandoInstanciarmosUmaNovaCategoria_DeveRetornarError()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.055"/>
+  <testcase name="dadoOParametroActiveFalse_QuandoInstanciarmosUmaNovaCategoria_DeveRetornarEssaNovaInstancia()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoOParametroActiveCategory_QuandoAtivarmosOparametroActive_DeveRetornarUmaCategoryAtiva()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoOParametroActiveCategory_QuandoDesativarmosOparametroActive_DeveRetornarUmaCategoryInativa()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoOParametroDescriptionEmpty_QuandoInstanciarmosUmaNovaCategoria_DeveRetornarEssaNovaInstancia()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoOInvalidoParametroEmptyName_QuandoInstanciarmosUmaNovaCategoria_DeveRetornarError()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoUmacategoriaValida_QuandoAtualizar_deveRetornarACategoriaUpdateAtAtualizada()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoOInvalidoParametroNullName_QuandoInstanciarmosUmaNovaCategoria_DeveRetornarError()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.0"/>
+  <testcase name="dadoOInvalidoParametroNameComMaisDe255Caracter_QuandoInstanciarmosUmaNovaCategoria_DeveRetornarError()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoOsValidosParametros_QuandoInstanciarmosUmaNovaCategoria_DeveRetornarEssaNovaInstancia()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <testcase name="dadoUmacategoriaValida_QuandoAtualizarCategoriaComParametroInvalido_deveRetornarACategoriaUpdateAtAtualizada()" classname="com.fullcycle.admin.catalogo.domain.category.CategoryTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
