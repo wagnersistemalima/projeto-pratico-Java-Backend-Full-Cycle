@@ -5,7 +5,11 @@ import com.fullcycle.admin.catalogo.domain.Identifier;
 import java.util.Objects;
 import java.util.UUID;
 
+// Entidade / TDD a entidade possui um Id, e é identificada por ele
+
 public class CategoryId extends Identifier {
+
+    // atributos
 
     private final String value;
 
@@ -14,9 +18,10 @@ public class CategoryId extends Identifier {
         this.value = value;
     }
 
-    // Factory methods statico
+    // Factory methods statico para gerar um id
 
     public static CategoryId unique() {
+
         return CategoryId.from(UUID.randomUUID());
     }
 
@@ -24,13 +29,18 @@ public class CategoryId extends Identifier {
         return new CategoryId(anId);
     }
 
+    // Factory methods statico para gerar um id
     public static CategoryId from(final UUID anId) {
         return new CategoryId(anId.toString().toLowerCase());
     }
 
+    // getters
+
     public String getValue() {
         return value;
     }
+
+    // equals & hashcode
 
     @Override
     public boolean equals(Object o) {

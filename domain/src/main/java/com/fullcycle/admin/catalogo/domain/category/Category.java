@@ -10,6 +10,8 @@ import java.time.Instant;
 
 public class Category extends AggregateRoot<CategoryId> implements Cloneable {
 
+    // atributos
+
     private String name;
     private String description;
     private boolean active;
@@ -18,6 +20,7 @@ public class Category extends AggregateRoot<CategoryId> implements Cloneable {
     private Instant deletedAt;
 
 
+    // construtor privado
     private Category(final CategoryId aId, final String aName, final String aDescription, final boolean isActive, final Instant aCreatedAt, final Instant aUpdateAt, final Instant aDeletedAt) {
         super(aId);
         this.name = aName;
@@ -27,6 +30,8 @@ public class Category extends AggregateRoot<CategoryId> implements Cloneable {
         this.updateAt = aUpdateAt;
         this.deletedAt = aDeletedAt;
     }
+
+    // factory metodo
 
     public static Category newCategory(final String aName, final String aDescription, final boolean isActive) {
         final var id = CategoryId.unique();

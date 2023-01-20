@@ -81,3 +81,9 @@ git branch -M main
 git push -u origin main
 
 ```
+## Modulo 1
+
+* Seguindo o DDD, respeitando os agregados, valueoObjects, gateway separado, nomenclatura mais expressiva, criar e modelar toda a Categoria sem se preucupar com: Banco de dados, informaçoes de web request.
+* Criar o Dominio com as interfaces, casos de uso
+* Focar na regra de negocio e no dominio
+* Deixar os detalhes para outro modulo, como configuração de banco de dados exemplo
